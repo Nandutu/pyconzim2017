@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/blood.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+<section> 
+    <h3>Thumbnail and dynamic captions in digital media templates</h3>
+     <p ><small>PyConZim 2017, August Harare, Zimbabwe by <a href="http://hbutau.github.io">Irene Nandutu</a> / <a href="http://twitter.com/irenenandutu">@irenenandutu</a> / Github: Nandutu</small></p>
+        
+</section>
+
+<section data-markdown>
+    <script type="text/template">
+        # \me
+        Django Developer @Hansu
+        
+        <h3>Interests:</h3> 
+        * Teaching
+        2. Software Development
+        3. Community Engagement
+        4. Open Source Development
+        5. Research
+ 
+    </script>
+</section>
+
+<section data-markdown>
+    <script type="text/template">
+        ### Objectives
+        * Understand some basic python code
+        * Gain knowledge on how to use bootstrap
+        * Build a complete digital media django website
+            * With dynamic captions
+            * Explore the power of bootstrap thumbnail for gallery in digital media files
+        
+ 
+    </script>
+</section>
+
+<section data-markdown>
+    <script type="text/template">
+        ### Introduction to python basics
+        * Why python
+        * Strings 
+        * Python as a calculator
+        * Datatypes
+        * Variables
+        * Booleans
+        * Built in functions
+ 
+    </script>
+</section>
+
+<section data-markdown>
+    <script type="text/template">
+        ### Introduction to python basics
+        #### Why python – Codementor?
+        * Python is a general-purpose language
+            * means it can be used to build just about anything, which will be made easy with the right tools/libraries.
+            * Professionally, 
+                * Python is great for backend web development
+                * data analysis, artificial intelligence and scientific computing. 
+        * Many developers have also used Python to 
+                *build productivity tools,Games, and desktop apps
+ 
+    </script>
+</section>
+
+<section data-markdown>
+    <script type="text/template">
+        #### Strings
+        These are sequence of characters
+        ```python
+        >>>“Harare” prints is a string
+        >>>Print(“Harare”) prints a string
+        >>>Print(“1” ) and >>>print(2). Identify the difference
+	    ```
+        Joining strings
+        ```python
+        >>>“Harare is capital of ” + “Zimbabwe”
+        >>>Print(“writing pythonic ” + “code”)
+        ```
+
+    
+    </script>
+</section>
+
+<section data-markdown>
+    <script type="text/template">
+        #### Introduction to python basics
+        ** Python as a calculator **
+
+        Type >>>1+1 or >>>print(1+1) in console.
+
+        Try that out with other operators and operands
+
+    
+    </script>
+</section>
+
+<section data-markdown>
+    <script type="text/template">
+        #### Introduction to python basics
+        Datatypes
+        Str, int, float, list, dictionaries, etc
+        
+        Python can tell us the datatype by use of keyword type 
+        
+        ```python 
+            >>>type(“Python class!!”)
+        ```
+        We can convert words to certain datatypes
+        ```python 
+            >>> int(2.3),>>> float(3), >>>str(1),
+        ``` 
+        ```python 
+            >>>List=“irene”: >>>list(Irene)
+        ```
+    
+    </script>
+</section>
+
+<section data-markdown>
+    <script type="text/template">
+        #### Introduction to python basics
+        Variables
+
+        These store content for us
+                        
+        ```python 
+            >>> speed =2
+            >>> time = 20
+            >>>distance = speed * time
+            >>>print(distance)
+            >>>Conference = “pycon zimbabwe”
+            >>>print(conference)
+          ```
+            
+    </script>
+</section>
+
+<section data-markdown>
+    <script type="text/template">
+        #### Introduction to python basics
+        Booleans
+        These are either True or False
+        Type this and see what happens
+                               
+        ```python 
+            >>>2==3
+            >>>2==2
+            >>>names = (“irene”,”caro”,”muhamed”)
+            >>>“muhamed” in names
+            >>>“jane” in names
+          ```
+        We express these in control structures like loops
+            
+    </script>
+</section>
+
+
+<section data-markdown>
+    <script type="text/template">
+        
+        ![cheers](/home/hamub/cheers.png)  
+	     
+         
+    </script>
+</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
